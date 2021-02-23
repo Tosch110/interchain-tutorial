@@ -1,0 +1,13 @@
+syntax = "proto3";
+package tosch110.interchain.interchain;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/tosch110/interchain/x/interchain/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
